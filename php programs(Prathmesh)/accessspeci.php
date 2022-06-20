@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<?php
+	class Fruit{
+		public $name;
+		protected $color;
+		private $weight;
+	}
+
+	$mango = new Fruit();
+	$mango->name = 'Mango';
+	$mango->color='Yellow';
+	$mango->weight='300';
+	?>
+
+</body>
+</html>
